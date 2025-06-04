@@ -5,7 +5,7 @@ Built with Vite + React + Tailwind CSS
 
 ## Development
 
-Run:
+Run:  
 
 ```bash
 npm install
