@@ -14,10 +14,11 @@ export default {
       },
       fontFamily: {
         empire: ['"Orbitron"', 'monospace'],
+        display: ['"Magna Veritas"', 'serif'],
       },
       boxShadow: {
         empireGlow: '0 0 10px #F43F5E',
-      }
+      },
     },
   },
   plugins: [],
