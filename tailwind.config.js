@@ -13,12 +13,12 @@ export default {
         empireGlow: '#F43F5E',
       },
       fontFamily: {
-        empire: ['"Orbitron"', 'monospace'],
         display: ['"Magna Veritas"', 'serif'],
+        empire: ['"Orbitron"', 'monospace'],
       },
       boxShadow: {
         empireGlow: '0 0 10px #F43F5E',
-      },
+      }
     },
   },
   plugins: [],
