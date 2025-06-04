@@ -1,0 +1,12 @@
+# Imperial Command Web
+
+REVENANT HUD Web Interface  
+Built with Vite + React + Tailwind CSS
+
+## Development
+
+Run:
+
+```bash
+npm install
+npm run dev
