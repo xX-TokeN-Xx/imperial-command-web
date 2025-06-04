@@ -1,14 +1,22 @@
+import './index.css';
+
 export default function App() {
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center bg-empireBlack">
-      <h1 className="text-5xl font-bold mb-4 drop-shadow-empireGlow">
-        REVENANT HUD
+    <main className="min-h-screen bg-empireBlack text-empireRed p-8 flex flex-col items-center justify-center">
+      <h1 className="text-6xl font-display drop-shadow-empireGlow mb-4 text-center tracking-widest">
+        IMPERIUM RESURGIT
       </h1>
-      <p className="text-xl text-empireGray">
-        Empire Mainframe Command Interface  
-        <br />
-        System Status: <span className="text-empireGlow">Operational</span>
-      </p>
+      <h2 className="text-2xl font-empire text-empireGlow uppercase tracking-wide">
+        REVENANT.re:DUX // Command Interface
+      </h2>
+
+      <div className="mt-12 p-6 border border-empireGray rounded-2xl shadow-empireGlow bg-empireGray w-full max-w-xl">
+        <p className="text-lg font-empire text-white">
+          [SYSTEM UPLINK ESTABLISHED]  
+          <br />
+          Bitty Online. All nodes reporting green.
+        </p>
+      </div>
     </main>
-  )
+  );
 }
