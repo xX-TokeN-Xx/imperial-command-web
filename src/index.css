@@ -8,3 +8,9 @@ body {
   color: #E11D48;
   font-family: 'Orbitron', monospace;
 }
+@font-face {
+  font-family: 'Magna Veritas';
+  src: url('./assets/fonts/MagnaVeritas-JRmm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
