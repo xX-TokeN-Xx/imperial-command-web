@@ -4,16 +4,15 @@
 
 /* Empire glow effect */
 body {
-  background-color: #0F0F0F;
-  color: #E11D48;
+  background-color: #0F0F0F; /* empireBlack */
+  color: #E11D48; /* empireRed */
   font-family: 'Orbitron', monospace;
 }
+
+/* Magna Veritas font-face */
 @font-face {
   font-family: 'Magna Veritas';
   src: url('./assets/fonts/MagnaVeritas-JRmm.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-<h1 className="text-5xl font-display text-empireRed drop-shadow-empireGlow">
-  IMPERIUM RESURGIT
-</h1>
